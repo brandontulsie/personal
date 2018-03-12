@@ -1,0 +1,230 @@
+/* global styles */
+html {
+  font-family: "Arial Narrow", "Century Gothic", "Consolas", sans-serif;
+  color: #2B2B2B;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* navigation menu */
+header {
+  display: flex;
+  background-color: #252525;
+}
+
+header img {
+  display: block;
+  height: 3em;
+  padding-left: 1em;
+}
+
+header a{
+  display: flex;
+  text-decoration: none;
+  color: white;
+  padding-right: 1em;
+}
+header p {
+  margin: 0;
+  padding-top: .5em;
+  font-size: 1.4em;
+  font-family: "brush script mt";
+}
+
+nav {
+  background: #252525;
+  display: flex;
+  flex: 100%;
+  font-size: 1.1em;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0 0 0 23em;
+  list-style: none;
+  display: flex;
+  flex: 1;
+}
+
+nav li {
+  display: inline;
+  flex: 1;
+  line-height: 2em;
+  padding-top: .4em;
+  padding-left: .25em;
+  padding-right: .25em;
+}
+nav li a {
+  color: white;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  line-height: 2em;
+  padding: 0;
+  margin: 0;
+}
+
+nav a:hover {
+  background-color: #313131;
+  text-decoration: underline;
+}
+
+.active {
+  background-color: #313131;
+}
+
+/* page content */
+
+/* page heading */
+article {
+  background-color: #313131;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 2.8em;
+  margin-top: 0;
+  margin-bottom: .2em;
+  color: white;
+  padding: 4em 0;
+}
+/* page body */
+section h2 {
+  margin-top: 0;
+  font-size: 2.2em;
+  margin-bottom: .2em;
+  color: #2B2B2B;
+  margin-left: 6em;
+}
+
+section p {
+  margin-left: 11em;
+  line-height: 1.4em;
+  margin-right: 11em;
+  margin-bottom: 1.5em;
+  font-size: 1.2em;
+  word-spacing: .1em;
+}
+
+.aboutbox {
+  text-decoration: none;
+  border: 2px solid #313131;
+  display: block;
+  width: 12%;
+  background-color: white;
+  color: #2C2C2C;
+  float: left;
+  margin: .5em 1em 1em 13em;
+  padding-left: 2em;
+  padding-right: 2em;
+  transition: all .75s ease;
+  text-align: center;
+}
+
+.aboutbox:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #2C2C2C;
+}
+
+ /* Gallery specifications */
+section img {
+  width: 49%;
+  padding: .3em;
+  float: left;
+}
+
+/* contact page boxes */
+.contactbox {
+  text-decoration: none;
+  border: 2px solid #313131;
+  display: block;
+  width: 25.8%;
+  background-color: white;
+  color: #2C2C2C;
+  float: left;
+  margin: .5em 1em 1em 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+  transition: all .75s ease;
+}
+
+.contactbox h3 {
+  text-align: left;
+  font-size: 1.8em;
+}
+
+.contactbox p {
+  font-size: 1.2em;
+  padding: 0em;
+  line-height: 1em;
+  word-spacing: .1em;
+  margin: 0 0 1.2em 0;
+}
+
+.contactbox:hover{
+  text-decoration: none;
+  color: white;
+  background-color: #2C2C2C;
+}
+
+/* footer */
+footer {
+  color: white;
+  background-color: #252525;
+  clear: both;
+  text-align: center;
+  margin-top: 1em;
+  padding: 1em 20em;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex: 1;
+}
+
+footer ul li {
+  display: inline;
+  flex: 1;
+  line-height: 2em;
+  padding-top: .5em;
+}
+
+footer ul li a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  line-height: 2em;
+  padding: 0em 1em;
+  margin: 0em;
+}
+
+footer a:hover{
+  color: grey;
+}
+
+.fa {
+  font-size: 1.5em;
+  padding: .5em;
+  width: 2em;
+  text-align: center;
+  text-decoration: none;
+  margin: 1em .2em;
+  color: white;
+}
+
+.fa:hover {
+  color: grey;
+}
