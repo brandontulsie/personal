@@ -58,6 +58,7 @@ nav li {
   padding-left: .25em;
   padding-right: .25em;
 }
+
 nav li a {
   color: white;
   display: inline-block;
@@ -96,7 +97,9 @@ h1 {
   color: white;
   padding: 4em 0;
 }
+
 /* page body */
+
 section h2 {
   margin-top: 0;
   font-size: 2.2em;
@@ -136,6 +139,7 @@ section p {
 }
 
  /* Gallery specifications */
+ 
 section img {
   width: 49%;
   padding: .3em;
@@ -143,11 +147,16 @@ section img {
 }
 
 /* contact page boxes */
+
+.box {
+  margin-left: 4em;
+}
+
 .contactbox {
   text-decoration: none;
   border: 2px solid #313131;
   display: block;
-  width: 25.8%;
+  width: 39%;
   background-color: white;
   color: #2C2C2C;
   float: left;
@@ -164,6 +173,7 @@ section img {
 
 .contactbox p {
   font-size: 1.2em;
+  line-height: 1.2em;
   padding: 0em;
   line-height: 1em;
   word-spacing: .1em;
