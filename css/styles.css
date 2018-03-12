@@ -43,7 +43,7 @@ nav {
 
 nav ul {
   margin: 0;
-  padding: 0 0 0 23em;
+  padding: 0 0 0 20em;
   list-style: none;
   display: flex;
   flex: 1;
@@ -183,6 +183,7 @@ footer {
   text-align: center;
   margin-top: 1em;
   padding: 1em 20em;
+  position: fixed bottom;
 }
 
 footer ul {
