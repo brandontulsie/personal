@@ -29,7 +29,7 @@ header a{
 }
 header p {
   margin: 0;
-  padding-top: .5em;
+  padding-top: .6em;
   font-size: 1.4em;
   font-family: "brush script mt";
 }
@@ -39,6 +39,7 @@ nav {
   display: flex;
   flex: 100%;
   font-size: 1.1em;
+  height: 3em;
 }
 
 nav ul {
@@ -53,7 +54,7 @@ nav li {
   display: inline;
   flex: 1;
   line-height: 2em;
-  padding-top: .4em;
+  padding-top: .5em;
   padding-left: .25em;
   padding-right: .25em;
 }
@@ -183,11 +184,11 @@ footer {
   text-align: center;
   margin-top: 1em;
   padding: 1em 20em;
-  position: fixed bottom;
+  position: relative;
 }
 
 footer ul {
-  margin: 0;
+  margin: 0 0 0 0em;
   padding: 0;
   list-style: none;
   display: flex;
