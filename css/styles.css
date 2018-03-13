@@ -12,7 +12,7 @@ body {
 /* navigation menu */
 header {
   display: flex;
-  background-color: #252525;
+  background-color: #151515;
 }
 
 header img {
@@ -35,7 +35,7 @@ header p {
 }
 
 nav {
-  background: #252525;
+  background: #151515;
   display: flex;
   flex: 100%;
   font-size: 1.1em;
@@ -139,7 +139,7 @@ section p {
 }
 
  /* Gallery specifications */
- 
+
 section img {
   width: 49%;
   padding: .3em;
@@ -189,7 +189,7 @@ section img {
 /* footer */
 footer {
   color: white;
-  background-color: #252525;
+  background-color: #151515;
   clear: both;
   text-align: center;
   margin-top: 1em;
@@ -224,6 +224,10 @@ footer ul li a {
 }
 
 footer a:hover{
+  color: grey;
+}
+
+.active2 {
   color: grey;
 }
 
