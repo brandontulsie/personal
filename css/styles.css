@@ -80,6 +80,10 @@ nav a:hover {
   background-color: #313131;
 }
 
+.active a:hover {
+    cursor: default;
+    text-decoration: none;
+}
 /* page content */
 
 /* page heading */
@@ -233,6 +237,7 @@ footer a:hover{
 
 .active2 {
   color: grey;
+  cursor: default;
 }
 
 .fa {
